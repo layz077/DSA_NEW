@@ -21,5 +21,19 @@ public class PrimeSeives{
 	   	}
 	   	
 	   	for(boolean b:result) System.out.println(b);
+	   	
+	   	// Trailing zeroes in a factorial.
+	   	
+	   	int x = 50;
+	   	int res = 0;
+	   	int y = 5;
+	   	
+	   	while(y<x) {
+	   	    res = res + x/y;
+	   	    y *= 5;
+	   	}
+	   	
+	   	System.out.println(res);
+	   	
 	}
 }
